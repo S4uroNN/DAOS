@@ -145,7 +145,6 @@ public class JAVAexamples {
 	};	
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		try {
 			inLine = new BufferedReader(new InputStreamReader(System.in));
 			//generel opsætning
