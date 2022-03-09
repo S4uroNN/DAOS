@@ -1,8 +1,7 @@
-package opgave1;
+package opgave14;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.net.SocketTimeoutException;
 import java.sql.*;
 
 public class opgave14 {
@@ -46,7 +45,7 @@ public class opgave14 {
             //gennemløber svaret
             while (res.next()) {
                 if(res.getString(3)!=null){
-                    System.out.println(res.getString(1) + "    " + res.getString(2) + "    " + res.getString(3));
+                    System.out.println(res.getString("aarstal") + "    " + res.getString("init") + "    " + res.getString("plac"));
                 }else{
                     System.out.println(res.getString(1) + "    " + res.getString(2) + "    " + "UDGÅET");
                 }
